@@ -20,3 +20,7 @@ puts "Lara young"
 puts "Kumy Veleppillai"
 puts "James Graham"
 puts "Tom Groombridge"
+
+print "Overall, we have "
+print 20
+puts " great students"
