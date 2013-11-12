@@ -1,28 +1,33 @@
-# first, we print the list of students
+# let's put all students into an array
+
+students = [
+	"Giacomo Patella" ,
+	"Nisar Tahir" ,
+	"Michael Fisher" ,
+	"Peter Kristo" ,
+	"Bruce Steedman" ,
+	"Asta Bevainyte" ,
+	"Hannah Knights" ,
+	"Simon Woolf" ,
+	"Ken Scott" ,
+	"Gianni Guitteaud" ,
+	"Anath Abensour" ,
+	"Erica Salvaneschi" ,
+	"Chris Hill" ,
+	"Nicky Keszler" ,
+	"Georgi Georgiev" ,
+	"Jean-Baptiste Blanc" ,
+	"Lara young" ,
+	"Kumy Veleppillai" ,
+	"James Graham" ,
+	"Tom Groombridge"
+]
+# and then prtin them
+
 puts "The students of my cohort at Makers Academy"
-puts "-------------------------------------------"
-puts "Giacomo Patella"
-puts "Nisar Tahir"
-puts "Michael Fisher"
-puts "Peter Kristo"
-puts "Bruce Steedman"
-puts "Asta Bevainyte"
-puts "Hannah Knights"
-puts "Simon Woolf"
-puts "Ken Scott"
-puts "Gianni Guitteaud"
-puts "Anath Abensour"
-puts "Erica Salvaneschi"
-puts "Chris Hill"
-puts "Nicky Keszler"
-puts "Georgi Georgiev"
-puts "Jean-Baptiste Blanc"
-puts "Lara young"
-puts "Kumy Veleppillai"
-puts "James Graham"
-puts "Tom Groombridge"
+puts "--------------------"
+students.each do |student|
+	puts student
+end
 # finally, we print the total
-print "Overall, we have "
-# it's imprtnat that print () doesn't add new line characters
-print 20
-puts " great students"
+puts "Overall, we have #{students.length} great students"
